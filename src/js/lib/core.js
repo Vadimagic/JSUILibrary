@@ -1,26 +1,21 @@
-(() => {
-	const $ = function (selector) {
-		const elements = document.querySelectorAll(selector);
-		const obj = {};
+const $ = function (selector) {
+	return new $.prototype.init(selector);
+};
 
-		obj.hide = () => {
-			elements.forEach(elem => {
-				elem.style.display = 'none';
-			});
+$.prototype.init = function(selector) {
+	if (!selector) {
+		return this; // {}
+	}
 
-			return obj;
-		};
+	Object.assign(this, document.querySelectorAll(selector));
 
-		obj.show = () => {
-			elements.forEach(elem => {
-				elem.style.display = '';
-			});
+	this.length = document.querySelectorAll(selector).length;
 
-			return obj;
-		};
+	return this;
+};
 
-		return obj;
-	};
+$.prototype.init.prototype = $.prototype;
 
-	window.$ = $;
-})();	
+window.$ = $;
+
+export default $;
