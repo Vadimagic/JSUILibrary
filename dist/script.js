@@ -181,6 +181,17 @@ $.prototype.eq = function (i) {
   return this;
 };
 
+$.prototype.index = function () {
+  const parent = this[0].parentNode;
+  const childs = [...parent.children];
+
+  const findMyIndex = item => {
+    return item == this[0];
+  };
+
+  return childs.findIndex(findMyIndex);
+};
+
 /***/ }),
 
 /***/ "./src/js/lib/modules/classes.js":
@@ -352,7 +363,9 @@ $('button').on('click', function () {
   $('div').eq(2).toggleClass('active');
   ;
 });
-console.log($('button').html('Hello'));
+$('div').click(function () {
+  console.log($(this).index());
+});
 
 /***/ })
 
