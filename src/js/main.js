@@ -1,5 +1,7 @@
 import './lib/lib';
 
 $('button').on('click', function() {
-	$(this).toggleClass('active');
+	$('div').eq(2).toggleClass('active');;
 });
+
+console.log($('button').html('Hello'))
