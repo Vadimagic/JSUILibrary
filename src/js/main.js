@@ -10,4 +10,6 @@ $('button').on('click', function() {
 
 // console.log($('div').eq(6).find('.more'));
 
-console.log($('.some').closest('.findmasde'));
+// console.log($('.some').closest('.findmasde'));
+
+console.log($('.findme').siblings());
