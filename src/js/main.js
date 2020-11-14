@@ -12,4 +12,7 @@ $('button').on('click', function() {
 
 // console.log($('.some').closest('.findmasde'));
 
+
+$('.findme').fadeOut(1800);
+
 console.log($('.findme').siblings());
