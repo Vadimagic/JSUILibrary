@@ -87,3 +87,193 @@
   .btn-block {
     display: block;
     width: 100%; }
+
+.text-center {
+  text-align: center; }
+
+.block-center {
+  margin-left: auto;
+  margin-right: auto; }
+
+.hidden {
+  visibility: hidden; }
+
+.visible {
+  visibility: visible; }
+
+.d-none {
+  display: none; }
+
+.d-block {
+  display: block; }
+
+.d-flex {
+  display: flex; }
+
+.f-center {
+  justify-content: center;
+  align-items: center; }
+
+.f-space-around {
+  justify-content: space-around; }
+
+.f-space-between {
+  justify-content: space-between; }
+
+.fz-16 {
+  font-size: 16px; }
+
+.fz-20 {
+  font-size: 20px; }
+
+.fz-24 {
+  font-size: 24px; }
+
+.fw-900 {
+  font-weight: 900; }
+
+.fw-700 {
+  font-weight: 700; }
+
+.fw-400 {
+  font-weight: 400; }
+
+.fw-300 {
+  font-weight: 300; }
+
+.fw-100 {
+  font-weight: 100; }
+
+.italic {
+  font-style: italic; }
+
+.text-color-primary {
+  color: #6751bf; }
+
+.text-color-success {
+  color: #56d133; }
+
+.text-color-danger {
+  color: #f83a3a; }
+
+.text-color-warning {
+  color: #f8f12a; }
+
+.text-color-dark {
+  color: #252324; }
+
+.m10 {
+  margin: 10px; }
+
+.mv10 {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.mh10 {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.mt10 {
+  margin-top: 20px; }
+
+.mr10 {
+  margin-right: 10px; }
+
+.mb10 {
+  margin-bottom: 10px; }
+
+.ml10 {
+  margin-left: 10px; }
+
+.m20 {
+  margin: 20px; }
+
+.mv20 {
+  margin-left: 20px;
+  margin-right: 20px; }
+
+.mh20 {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.mt20 {
+  margin-top: 20px; }
+
+.mr20 {
+  margin-right: 20px; }
+
+.mb20 {
+  margin-bottom: 20px; }
+
+.ml20 {
+  margin-left: 20px; }
+
+.p10 {
+  padding: 10px; }
+
+.pv10 {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.ph10 {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.pt10 {
+  padding-top: 20px; }
+
+.pr10 {
+  padding-right: 10px; }
+
+.pb10 {
+  padding-bottom: 10px; }
+
+.pl10 {
+  padding-left: 10px; }
+
+.p20 {
+  padding: 20px; }
+
+.pv20 {
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.ph20 {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.pt20 {
+  padding-top: 20px; }
+
+.pr20 {
+  padding-right: 20px; }
+
+.pb20 {
+  padding-bottom: 20px; }
+
+.pl20 {
+  padding-left: 20px; }
+
+.w-100 {
+  width: 100%; }
+
+.w-50 {
+  width: 50%; }
+
+.w-300 {
+  width: 300px; }
+
+.w-500 {
+  width: 500px; }
+
+.h-100 {
+  height: 100%; }
+
+.h-50 {
+  height: 50%; }
+
+.h-300 {
+  height: 300px; }
+
+.h-500 {
+  height: 500px; }

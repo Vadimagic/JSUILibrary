@@ -1,6 +1,11 @@
+// General
 @import './general/base.scss';
 @import './general/variables.scss';
 @import './general/content.scss';
 @import './general/typography.scss';
 
-@import './components/button.scss';
+// Components
+@import './components/ui.scss';
+
+// Helpers
+@import './helpers/classes.scss';
