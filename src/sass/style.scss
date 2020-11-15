@@ -3,6 +3,4 @@
 @import './general/content.scss';
 @import './general/typography.scss';
 
-* {
-	color: $primary;
-}
+@import './components/button.scss';

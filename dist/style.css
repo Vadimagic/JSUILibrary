@@ -5,12 +5,85 @@
   padding: 0; }
 
 .container {
-  min-width: 1140px;
+  max-width: 1140px;
   padding: 0px 15px;
   margin: 0 auto; }
 
 * {
   font-family: 'Roboto', sans-serif; }
 
-* {
-  color: #6751bf; }
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #6751bf;
+  background-color: transparent;
+  border-radius: 5px;
+  color: #252324;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 1.5;
+  transition: all .2s;
+  cursor: pointer; }
+  .btn:hover {
+    background-color: #8876cd;
+    color: #fff; }
+  .btn-primary {
+    background-color: #6751bf;
+    border-color: #6751bf;
+    color: #fff; }
+    .btn-primary:hover {
+      background-color: #503ba2; }
+  .btn-success {
+    background-color: #56d133;
+    border-color: #56d133;
+    color: #fff; }
+    .btn-success:hover {
+      background-color: #44ab26; }
+  .btn-danger {
+    background-color: #f83a3a;
+    border-color: #f83a3a;
+    color: #fff; }
+    .btn-danger:hover {
+      background-color: #f60909; }
+  .btn-warning {
+    background-color: #f8f12a;
+    border-color: #f8f12a;
+    color: #fff; }
+    .btn-warning:hover {
+      background-color: #e7e008; }
+  .btn-dark {
+    background-color: #252324;
+    border-color: #252324;
+    color: #fff; }
+    .btn-dark:hover {
+      background-color: #0b0a0b; }
+  .btn-outline-primary {
+    border-color: #6751bf;
+    color: #6751bf; }
+    .btn-outline-primary:hover {
+      background-color: #6751bf; }
+  .btn-outline-success {
+    border-color: #56d133;
+    color: #56d133; }
+    .btn-outline-success:hover {
+      background-color: #56d133; }
+  .btn-outline-danger {
+    border-color: #f83a3a;
+    color: #f83a3a; }
+    .btn-outline-danger:hover {
+      background-color: #f83a3a; }
+  .btn-outline-warning {
+    border-color: #f8f12a;
+    color: #f8f12a; }
+    .btn-outline-warning:hover {
+      background-color: #f8f12a; }
+  .btn-outline-dark {
+    border-color: #252324;
+    color: #252324; }
+    .btn-outline-dark:hover {
+      background-color: #252324; }
+  .btn-block {
+    display: block;
+    width: 100%; }
