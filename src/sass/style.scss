@@ -1,9 +1,8 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
+@import './general/base.scss';
+@import './general/variables.scss';
+@import './general/content.scss';
+@import './general/typography.scss';
 
-.active {
-	color: red;
+* {
+	color: $primary;
 }
