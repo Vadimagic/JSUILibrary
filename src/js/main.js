@@ -15,4 +15,17 @@ $('button').on('click', function() {
 
 $('.findme').fadeOut(1800);
 
-console.log($('.findme').siblings());
+// $('.wrap').html(
+// 	`
+// 		<div class="dropdown">
+// 			<button class="btn btn-primary dropdown-toggle" id="dropdownMenuButton">Dropdown button</button>
+// 			<div class="dropdown-menu" data-toggle-id="dropdownMenuButton">
+// 				<a href="#" class="dropdown-item">Vadim</a>
+// 				<a href="#" class="dropdown-item">Bida</a>
+// 				<a href="#" class="dropdown-item">Pavlovich</a>
+// 			</div>
+// 		</div>
+// 	`
+// );
+
+// $('.dropdown-toggle').dropdown();
