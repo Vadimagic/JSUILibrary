@@ -11,5 +11,6 @@ import './modules/effects';
 // Components
 import './components/dropdown';
 import './components/modal';
+import './components/tab';
 
 export default $;

@@ -40,7 +40,7 @@ $('#trigger').click(() => $('#trigger').createModal({
 		settings: [
 			 [
 				  'Close',
-				  ['btn-danger', 'mr-10'],
+				  ['btn-danger', 'mr10'],
 				  true
 			 ],
 			 [
@@ -53,7 +53,7 @@ $('#trigger').click(() => $('#trigger').createModal({
 			 ],
 			 [
 				  'Another btn',
-				  ['btn-warning', 'ml-10'],
+				  ['btn-warning', 'ml10'],
 				  false,
 				  () => {
 						alert('Hello World');
