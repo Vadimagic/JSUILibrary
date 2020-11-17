@@ -1,8 +1,8 @@
 import './lib/lib';
 
-$('button').on('click', function() {
-	$('div').eq(2).toggleClass('active');;
-});
+// $('button').on('click', function() {
+// 	$('div').eq(2).toggleClass('active');;
+// });
 
 // $('div').click(function() {
 // 	console.log($(this).index());
@@ -13,7 +13,7 @@ $('button').on('click', function() {
 // console.log($('.some').closest('.findmasde'));
 
 
-$('.findme').fadeOut(1800);
+// $('.findme').fadeOut(1800);
 
 // $('.wrap').html(
 // 	`
@@ -29,3 +29,36 @@ $('.findme').fadeOut(1800);
 // );
 
 // $('.dropdown-toggle').dropdown();
+
+$('#trigger').click(() => $('#trigger').createModal({
+	text: {
+		title: 'Vadimchiik',
+		body: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus eius velit iste obcaecati blanditiis atque fugit cumque sapiente? Dolore, odit.'
+	},
+	btns: {
+		count: 3,
+		settings: [
+			 [
+				  'Close',
+				  ['btn-danger', 'mr-10'],
+				  true
+			 ],
+			 [
+				  'Save changes',
+				  ['btn-success'],
+				  false,
+				  () => {
+						alert('Данные сохранены');
+				  }
+			 ],
+			 [
+				  'Another btn',
+				  ['btn-warning', 'ml-10'],
+				  false,
+				  () => {
+						alert('Hello World');
+				  }
+			 ]
+		]
+	}
+}));
