@@ -69,6 +69,6 @@ $.prototype.carousel = function() {
 			dots[slideIndex].classList.add('active');
 		});
 	}
-};
+}; 
 
 $('.carousel').carousel();
