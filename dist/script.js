@@ -2106,6 +2106,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_tab__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/tab */ "./src/js/lib/components/tab.js");
 /* harmony import */ var _components_accordion__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/accordion */ "./src/js/lib/components/accordion.js");
 /* harmony import */ var _components_carousel__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/carousel */ "./src/js/lib/components/carousel.js");
+/* harmony import */ var _services_request__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./services/request */ "./src/js/lib/services/request.js");
+/* harmony import */ var _services_request__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_services_request__WEBPACK_IMPORTED_MODULE_11__);
 // Core
  // Modules
 
@@ -2118,6 +2120,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+ // Services
 
 
 /* harmony default export */ __webpack_exports__["default"] = (_core__WEBPACK_IMPORTED_MODULE_0__["default"]);
@@ -2503,6 +2507,17 @@ _core__WEBPACK_IMPORTED_MODULE_0__["default"].prototype.click = function (handle
 
   return this;
 };
+
+/***/ }),
+
+/***/ "./src/js/lib/services/request.js":
+/*!****************************************!*\
+  !*** ./src/js/lib/services/request.js ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
 
 /***/ }),
 
