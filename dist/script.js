@@ -2540,6 +2540,24 @@ _core__WEBPACK_IMPORTED_MODULE_0__["default"].prototype.get = async function (ur
   }
 };
 
+_core__WEBPACK_IMPORTED_MODULE_0__["default"].prototype.post = async function (url, data, dataTypeAnswer = 'text') {
+  let res = await fetch(url, {
+    method: 'POST',
+    body: data
+  });
+
+  switch (dataTypeAnswer) {
+    case 'json':
+      return await res.json();
+
+    case 'text':
+      return await res.text();
+
+    case 'blob':
+      return await res.blob();
+  }
+};
+
 /***/ }),
 
 /***/ "./src/js/main.js":
